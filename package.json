@@ -1,0 +1,21 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch | live-server --port=8085 --no-browser"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.2",
+    "live-server": "^1.2.1",
+    "phaser": "^3.16.2",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
